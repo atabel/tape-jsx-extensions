@@ -1,0 +1,38 @@
+{
+  "name": "tape-jsx-extensions",
+  "version": "1.0.0",
+  "description": "Colection of tape assertion to work with JSX",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/babel-node node_modules/.bin/tape 'tests/**/*.js' | ./node_modules/.bin/faucet",
+    "lint": "./node_modules/.bin/eslint src/ tests/",
+    "build": "./node_modules/.bin/babel -d dist/ src/",
+    "clean": "rm -r node_modules dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "test",
+    "tape",
+    "assert",
+    "jsx",
+    "react",
+    "extend-tape"
+  ],
+  "author": "atabel",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "eslint": "^1.7.1",
+    "eslint-plugin-react": "^3.6.2",
+    "extend-tape": "^1.0.1",
+    "faucet": "0.0.1",
+    "react": "^0.14.0",
+    "react-addons-test-utils": "^0.14.0",
+    "tape": "^4.2.1"
+  },
+  "dependencies": {
+    "tape-jsx-equals": "^1.0.0"
+  }
+}
