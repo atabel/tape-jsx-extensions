@@ -33,6 +33,9 @@
     "tape": "^4.2.1"
   },
   "dependencies": {
-    "tape-jsx-equals": "^1.0.0"
+    "tape-jsx-equals": "^1.0.0",
+    "tape-jsx-includes": "^1.1.0",
+    "tape-jsx-notequals": "^1.0.3",
+    "tape-jsx-notincludes": "^1.1.0"
   }
 }
