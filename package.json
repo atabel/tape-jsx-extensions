@@ -10,6 +10,10 @@
     "clean": "rm -r node_modules dist",
     "prepublish": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atabel/tape-jsx-extensions"
+  },
   "keywords": [
     "test",
     "tape",
